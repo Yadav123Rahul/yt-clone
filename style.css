@@ -11,6 +11,44 @@ body {
     flex-direction: column;
     flex: 1;
 }
+.sidebar {
+    background: black;
+    flex: 0.19;
+    overflow-y: scroll;
+    height: 100%;
+}
+.sidebar-top{
+    /* gap: 10px; */
+margin-top: 20px;
+    /* color: palegoldenrod; */
+}
+.upperside{
+    white-space: nowrap;
+    /* width: 100%; */
+    /* background-color: red; */
+    margin-inline: 10px;
+    border-radius: 0.7rem;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 10px 20px;
+}
+.upperside:hover{
+    background-color: #303030;
+}
+hr{
+margin: 20px 10px;
+opacity: .3;
+}
+.hrline{
+    margin-inline: 0px;
+}
+.scroll-div {
+    flex: 0.85;
+    height: 100%; 
+    overflow-y: scroll;
+}
+
 
 .main_container {
     display: flex;
@@ -137,15 +175,3 @@ body {
 
 
 
-.sidebar {
-    background: red;
-    flex: 0.17;
-    overflow-y: scroll;
-    height: 100%;
-}
-
-.scroll-div {
-    flex: 0.85;
-    height: 100%; 
-    overflow-y: scroll;
-}
